@@ -110,12 +110,19 @@ body {
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   font-weight: 700;
 }
-
+#div-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
 .div-1, .div-2, .div-3 {
   display: flex;
   flex-wrap: wrap;
@@ -128,13 +135,10 @@ body {
   font-size: 1em;
   height: 200px;
   width: 300px;
-  margin: 20px;
-}
-h3 {
-  color: #cc3300;
-  padding: 15px;
   margin: 0;
-  text-align: center;
+}
+h1, h2 {
+color: white;
 }
 p {
   padding: 15px;
